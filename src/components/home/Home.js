@@ -1,8 +1,9 @@
 import React from "react";
+import WhatIDo from "./WhatIDo";
 
 export default function Home() {
   return (
-    <section className="home-front-section">
+    <section className="home-page">
       <div className="home-main">
         <div className="home-main-desc">
           <div className="home-main-desc-text">
@@ -49,8 +50,9 @@ export default function Home() {
             fill="#4F4F4F"
           />
         </svg>
-        <p>scrolls</p>
+        <p>scroll</p>
       </div>
+      <WhatIDo />
     </section>
   );
 }
